@@ -144,7 +144,7 @@ def main(l_hidden_size=2, dropout=5, dropout2=6, mask_dim=4, power=1, batch_size
 # def main(l_hidden_size=1, dropout=3, dropout2=3, mask_dim=3 , power=1, batch_size=2, num_layer=2):
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-training', type=bool, default=True)
+    parser.add_argument('-training', type=bool, default=False)
     parser.add_argument('-embed_num', type=int, default=4070, help='The correct vocab size will print to screen, if error appears')
     parser.add_argument('-arch', type=str, default='AspectSent')
     parser.add_argument('-batch_size', type=int, default=int(32*batch_size))
