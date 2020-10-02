@@ -3,6 +3,8 @@ import torch.nn.init as init
 from torch.nn import utils as nn_utils
 from util import *
 from Layer import SimpleCat
+import torch.nn as nn
+import torch.nn.functional as F
 torch.manual_seed(222)
 
 
