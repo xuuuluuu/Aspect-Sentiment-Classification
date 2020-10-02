@@ -2,7 +2,7 @@ import torch.nn.init as init
 import pickle
 from torch.nn import utils as nn_utils
 from util import *
-
+import torch.nn as nn
 
 def sent_split(sent):
     words = []
