@@ -18,7 +18,7 @@ python train_crf_glove.py
 By default, the model runs on laptop dataset with provided hyper-parameters.  
 To run on other datasets:  
   - In line 131-144, uncomment the main funtion for different dataset.  
-  - In line 171-176, edit the embed_num on line 148 and path directory.
+  - Edit the embed_num on line 148 and path directory in line 171-176, .
 
 To run with the saved best model:  
   - Set training to False on line 147.
