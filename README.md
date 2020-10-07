@@ -1,5 +1,5 @@
 # ABSA
-[EMNLP 2020] [Aspect Sentiment Classification with Aspect-Specific Opinion Spans](https://github.com/xuuuluuu/Aspect-Sentiment-Classification/edit/main/README.md)
+[EMNLP 2020] [Aspect Sentiment Classification with Aspect-Specific Opinion Spans](https://arxiv.org/abs/2010.02696)
 
 # Requirement  
 Python 3.7.3  
